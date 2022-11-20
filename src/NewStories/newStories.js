@@ -19,7 +19,7 @@ const NewStoryPage = () => {
 
   useEffect(() => {
     fetch(
-      `http://hn.algolia.com/api/v1/search_by_date?tags=(story,show_hn,ask_hn)&page=${page}&hitsPerPage=${pageSize}`
+      `https://hn.algolia.com/api/v1/search_by_date?tags=(story,show_hn,ask_hn)&page=${page}&hitsPerPage=${pageSize}`
     ).then(res => {
       if (res.status === 200) {
         res.json().then(data => {
