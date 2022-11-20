@@ -90,7 +90,7 @@ const SearchPage = () => {
 
   useEffect(() => {
     fetch(
-      `http://hn.algolia.com/api/v1/${sortBy}?tags=${tags}&page=${page}&hitsPerPage=${pageSize}&numericFilters=created_at_i>${startTime},created_at_i<=${endTime}&query=${query}`
+      `https://hn.algolia.com/api/v1/${sortBy}?tags=${tags}&page=${page}&hitsPerPage=${pageSize}&numericFilters=created_at_i>${startTime},created_at_i<=${endTime}&query=${query}`
     ).then(res => {
       if (res.status === 200) {
         res.json().then(data => {
