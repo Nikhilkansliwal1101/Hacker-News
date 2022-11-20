@@ -1,0 +1,23 @@
+Frontend assessment: (React js)
+Goal:
+The goal of this assignment is to evaluate
+● Your understanding & use of external API services
+● Your approach Component design & state management
+● Your idea for providing users with good UI/UX
+Assignment:
+You need to build a simple clone with the following features of the Hacker News website
+- New stories page - https://news.ycombinator.com/newest
+  - All the stories ordered by the newest to oldest with pagination
+- Search page - https://hn.algolia.com/?q=nexus
+  - The Search page needs to have three filters
+    - Stories
+    - Popularity
+    - Time
+
+For the Hacker news API Refer the Algolia docs provided here:
+https://hn.algolia.com/api
+
+Technologies to use:
+  - Feel free to use any UI libraries like TailwindCSS, Chakra UI, MUI etc.
+  - The UI doesn’t have to look exactly like hacker news as long as it provides good UX
+  - Preferably also use a modern framework like React, Vue etc.
